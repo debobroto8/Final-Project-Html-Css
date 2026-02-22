@@ -49,6 +49,12 @@ nav ul li a:hover{
     font-size: 20px;
     color: #2DD4BF;
 }
+.logo {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #F59E0B;
+}
 
 .g{
     color: #2DD4BF;
