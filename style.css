@@ -546,6 +546,7 @@ input:focus{
         letter-spacing: 5px;
     }
     .Gmap{
+        width: 100%;
         display:flex;
         justify-content: center;
         align-items: center;
