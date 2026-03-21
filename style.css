@@ -98,6 +98,7 @@ header .row{
 }
 
 .hero-text{
+    padding-right:10px ;
     /* letter-spacing: 10px; */
     font-weight: 600;
     line-height: 2;
