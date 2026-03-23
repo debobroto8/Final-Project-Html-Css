@@ -98,7 +98,12 @@ header .row{
     align-items: center;
     
 }
+.Btn-hero{
+    margin-top: 30px;
 
+    display: flex;
+    align-items: center;
+}
 
 .hero-text{
     padding-right:10px ;
