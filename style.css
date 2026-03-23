@@ -15,7 +15,6 @@ a{
 }
 
 
-
 nav{
     position: fixed;
     width: 100%;
@@ -27,6 +26,14 @@ nav{
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     z-index: 1000;
+}
+.logo {
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: #F59E0B;
 }
 .logo h1{
     color: #F59E0B;
@@ -49,27 +56,20 @@ nav ul li a:hover{
     font-size: 20px;
     color: #2DD4BF;
 }
-.logo {
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    color: #F59E0B;
-}
 
 .g{
-    color: #2DD4BF;
+    margin:  0 20px;
+    /* text-align: end; */
+    /* color: #2DD4BF; */
     display: none;
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
 }
 
  
-
+/* Header */
 
 header{
-    
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -79,10 +79,21 @@ header{
     color: white;
   
 }
+.Btn-hero{
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+}
+p{
+    font-weight: 600;
+}
+
+
 .headerCol i{
     color: #F59E0B;
 font-size: 25px;
-margin: 0 15px ;
+margin: 0 20px ;
 
 }
 header h1{
@@ -99,16 +110,10 @@ header .row{
     align-items: center;
     
 }
-.Btn-hero{
-    margin-top: 30px;
-
-    display: flex;
-    align-items: center;
-}
 
 .hero-text{
-    padding-right:10px ;
     /* letter-spacing: 10px; */
+    padding-right:10px ;
     font-weight: 600;
     line-height: 2;
     font-size: 20px;
@@ -118,6 +123,7 @@ h1{
     color: #14B8A6;
 }
 .header-btn{
+ 
     display: inline-block;
     padding: 12px 25px;
     background: #F59E0B;
@@ -127,8 +133,8 @@ h1{
     transition: 0.3s;
 }
 .hero-btn{
+    margin-top: 30px;
     display: inline-block;
-    margin-top: 20px;
     padding: 12px 25px;
     background: #F59E0B;
     color: white;
@@ -155,6 +161,8 @@ header .col img{
 }
 
 
+/* ABOUT */
+
 .About{
     padding: 80px 0;
 }
@@ -179,9 +187,12 @@ header .col img{
 .About img{
     width: 100%;
 }
+.About p{
+    font-weight: 600;
+    font-size: 18px;
+}
 
-
-
+/* skills */
 .skills {
     color: #111;
     padding: 80px 20px;
@@ -359,6 +370,7 @@ border-radius: 50%;
     gap: 40px;
 }
 
+
 .Contact .col{
     flex: 1;
 }
@@ -499,8 +511,6 @@ input:focus{
         flex-direction: column;
     }
 .footer-row{
-    justify-content: center;
-     align-items: center;
     text-align: center;
     flex-direction: column;
 }
@@ -510,7 +520,7 @@ input:focus{
 @media (max-width: 600px){
 
     nav{
-        
+      
         flex-direction: column;
     }
 
@@ -522,8 +532,7 @@ input:focus{
         /* background: white; */
         padding: 10px 0;
     }
-     .logo{
-         width:100%;
+    .logo{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -544,7 +553,7 @@ input:focus{
         margin-top: 20px;
     }
     .headerCol {
-         padding: 0 10px;
+        padding: 0 10px;
         margin-top: 30px;
     }
     .headerCol h1{
@@ -564,7 +573,10 @@ input:focus{
         font-size: 22px;
     }
     .g{
+        
         display: block;
+        margin:auto 50px;
+        text-align: end;
     }
 
     .services .row{
@@ -576,7 +588,6 @@ input:focus{
         letter-spacing: 5px;
     }
     .Gmap{
-        width: 100%;
         display:flex;
         justify-content: center;
         align-items: center;
