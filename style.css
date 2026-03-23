@@ -50,10 +50,11 @@ nav ul li a:hover{
     color: #2DD4BF;
 }
 .logo {
-    
+    width:100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
+    
     color: #F59E0B;
 }
 
@@ -522,6 +523,7 @@ input:focus{
         padding: 10px 0;
     }
      .logo{
+         width:100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
