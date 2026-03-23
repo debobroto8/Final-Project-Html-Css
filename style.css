@@ -523,10 +523,16 @@ input:focus{
         margin-top: 20px;
     }
     .headerCol {
+        padding:0 10px;
         margin-top: 30px;
     }
     .headerCol h1{
         font-size: 40px;
+    }
+    .headerCol i{
+    
+    font-size: 25px;
+    margin: 0 15px ;
     }
     .hero-text{
 
