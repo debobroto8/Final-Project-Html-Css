@@ -99,6 +99,7 @@ header .row{
     
 }
 
+
 .hero-text{
     padding-right:10px ;
     /* letter-spacing: 10px; */
@@ -110,7 +111,15 @@ header .row{
 h1{
     color: #14B8A6;
 }
-
+.header-btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #F59E0B;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
 .hero-btn{
     display: inline-block;
     margin-top: 20px;
